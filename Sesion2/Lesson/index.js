@@ -1,1 +1,0 @@
-alert ('Không làm mà đòi có ăn thì chỉ có ăn đb, ăn cứt')
