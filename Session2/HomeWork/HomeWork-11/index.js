@@ -1,1 +1,0 @@
-//a. tạo hình vuông:
