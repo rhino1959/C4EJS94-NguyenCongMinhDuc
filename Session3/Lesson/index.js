@@ -1,6 +1,6 @@
-let a = 5;
-let b = 6;
-[a,b] = [b,a]
-console.log (a, b); 
-
-    
+while (true){
+    let x = Number(prompt('Enter a number'));
+    if (x) {
+        break;
+    }
+}
