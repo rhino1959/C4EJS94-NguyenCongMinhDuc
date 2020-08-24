@@ -3,7 +3,6 @@ let namedMovie = {
     year: 2012,
     rate: 8.4,
 };
-
-delete namedMovie.rate
-delete namedMovie['rate']
-console.log (namedMovie)
+for (let item in namedMovie) {
+    console.log (namedMovie[item]);
+}
