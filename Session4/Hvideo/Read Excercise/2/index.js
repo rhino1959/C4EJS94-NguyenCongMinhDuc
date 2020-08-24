@@ -1,14 +1,6 @@
-let namedMovie = {
-    title: 'The dark knight',
-    year: 2012,
-    rate: 8.4,
-}
-console.log (namedMovie.rate);
-console.log (namedMovie.title);
-console.log (namedMovie.year);
-
-console.log (namedMovie['rate']);
-console.log (namedMovie['title']);
-console.log (namedMovie['year']);
-
-console.log (namedMovie.a); //undefined
+let favorite = ['football', 'gym', 'film'];
+favorite.push('swim');
+console.log(favorite);
+console.log(favorite[0].toUpperCase());
+console.log(favorite[favorite.length - 1].toUpperCase());
+console.log(favorite[favorite.length - 2].toUpperCase());
