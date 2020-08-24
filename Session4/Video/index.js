@@ -1,5 +1,5 @@
 let person = {
-    name: 'Nam',
-    age: 19,
+    name: 'Duc',
+    age: 20, 
+    favs: ['gym', 'ball', 'candy']
 }
-person.location = 'Hanoi';
