@@ -1,3 +1,18 @@
-#a , .b {
+a:link {
     color: red;
-}
+  }
+  
+  a:visited {  /* visited link */
+
+    color: green;
+  }
+  
+  a:hover {  /* mouse over link */
+
+    color: hotpink;
+  }
+  
+  a:active {  /* selected link */
+
+    color: blue;
+  }
