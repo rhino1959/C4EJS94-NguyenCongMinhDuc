@@ -1,9 +1,16 @@
-let x = Number (prompt('nhập số nguyên dương chẵn trong khoảng 4-20'));
-if (x < 4 || x > 20 || x%2!==0) {
-alert('vui lòng nhập lại');
+let n = Number(prompt('nhập số chẵn n trong khoảng từ 4-20:'))
+if (n < 4 || n > 20 || n % 2 !== 0) {
+    alert('vui lòng nhập lại')
 }
 else {
-var y =Number (prompt ('nhập số bát kỳ trong dãy'));
+    var x = Number(prompt('nhập số bất kỳ trong dãy'))
+    let y = n / 2 + x;
+    let z = x - n / 2;
+        if (n / 2 > x) {
+            alert('số đối là: ' + y)
+        }
+        else {
+            alert('số đối là: ' + z)
+        }
+
 }
-let r = x/2 + y;
-alert ('số đối là: ' + r)
